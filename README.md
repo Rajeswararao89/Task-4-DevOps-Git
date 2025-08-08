@@ -1,12 +1,13 @@
-# 🚀 Task 4 – Version-Controlled DevOps Project with Git
+# 🚀 Task 4 – Git Workflow Practice with a Simple Python App
 
-## 📌 Overview
-This project is part of the DevOps Internship tasks and focuses on **Git best practices**.  
-We created a simple **Python application** that prints system information, containerized it with **Docker**, and managed the repository using a **Git branching workflow**.
+## 📌 About This Project
+This is my submission for Task 4 of the DevOps Internship.  
+For this task, I created a small Python program that prints basic system information, and I also wrote a Dockerfile to containerize it.  
+The main goal was to practice **Git best practices** — working with different branches, using pull requests, tagging versions, ignoring unnecessary files, and keeping proper documentation.
 
 ---
 
-## 🛠 Tech Stack
+## 🛠 Tools & Technologies Used
 - **Python 3.9**
 - **Docker**
 - **Git & GitHub**
@@ -14,64 +15,44 @@ We created a simple **Python application** that prints system information, conta
 ---
 
 ## 📂 Project Structure
-
 Task-4-DevOps-Git/
 │── app/
-│ └── app.py # Python script
-│── Dockerfile # Docker configuration
-│── .gitignore # Ignored files
-│── README.md # Project documentation
-│── docs.md # Git workflow documentation
-│── screenshots/ # Git process screenshots
+│ └── app.py # Python script that prints system info
+│── Dockerfile # To build the Docker image
+│── .gitignore # To ignore unnecessary files in Git
+│── README.md # This documentation
+│── docs.md # Step-by-step Git workflow followed
+│── screenshots/ # Screenshots of Git workflow and outputs
 
 
 ---
 
-## 📜 Features
-- Prints OS details using Python’s `platform` module.
-- Dockerized for easy execution anywhere.
-- Git workflow:
-  - **main** – production-ready branch.
-  - **dev** – integration branch.
-  - **feature/** – development branch for changes.
-  - Pull Requests for merging.
-  - Tags for versioning.
-  - `.gitignore` for excluding unnecessary files.
+## 🏗 How I Worked on This Task
+1. Created a new Git repository and connected it to GitHub.
+2. Made `main`, `dev`, and `feature` branches.
+3. Wrote the Python code and Dockerfile.
+4. Added a `.gitignore` file to keep the repo clean.
+5. Worked on a feature branch and merged it into `dev` via a Pull Request.
+6. Merged `dev` into `main` after review.
+7. Added a Git tag `v1.0` for the first version.
+8. Documented all steps in `docs.md`.
+9. Added screenshots to show the workflow.
 
 ---
 
-## ⚙️ Setup Instructions
+## ⚙️ How to Run the App
 
-### 1️⃣ Clone the Repository
+### Run with Python
 ```bash
-git clone https://github.com/<your-username>/Task-4-DevOps-Git.git
-cd Task-4-DevOps-Git
-2️⃣ Run Locally
-bash
-Copy
-Edit
 python app/app.py
-3️⃣ Build & Run Docker Container
+Build and Run with Docker
 
 docker build -t task4-app .
 docker run --rm task4-app
 
-🏷 Versioning
-v1.0 – Initial working app with Docker support.
-
-
-📚 Learning Outcomes
-Learned Git branching & merging.
-
-Practiced Pull Requests.
-
-Used .gitignore effectively.
-
-Added Git tags for version control.
-
-Documented workflow in Markdown.
+🏷 Version
+v1.0 – Initial version with Python app and Docker support.
 
 ✍️ Author
 Rajeswara Rao
 DevOps Internship – Task 4 Submission
-
