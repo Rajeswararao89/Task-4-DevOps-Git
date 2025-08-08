@@ -40,15 +40,23 @@ Task-4-DevOps-Git/
 
 ---
 
-## ⚙️ How to Run the App
+## 📸 Screenshots
 
-### Run with Python
-```bash
-python app/app.py
-Build and Run with Docker
+### 1. Branch List & Tags
+![Branch List and Tags](screenshots/Screenshot%20(112).png)
 
-docker build -t task4-app .
-docker run --rm task4-app
+### 2. Pull Request: Feature → Dev
+![PR Feature to Dev](screenshots/Screenshot%20(113).png)
+
+### 3. Pull Request: Dev → Main
+![PR Dev to Main](screenshots/Screenshot%20(114).png)
+
+### 4. Git Tag v1.0
+![Git Tag](screenshots/Screenshot%20(115).png)
+
+### 5. App Running Output
+![App Output](screenshots/Screenshot%20(116).png)
+
 
 🏷 Version
 v1.0 – Initial version with Python app and Docker support.
